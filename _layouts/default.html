@@ -6,24 +6,43 @@
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   <style>
     nav {
-      background-color: #f0f0f0;
       padding: 10px;
       position: sticky;
       top: 0;
       z-index: 1000;
+      display: flex;
+      justify-content: center;
     }
     nav a {
       margin-right: 15px;
       text-decoration: none;
       font-weight: bold;
-      color: #333;
+      color: #f0f0f0;
     }
     main {
       padding: 20px;
     }
+    body {
+      background-color:black;
+      color: #fff;
+    }
+    ascii pre {
+	    display: flex;
+	    justify-content: center;
+	    line-height: normal;
+    }
   </style>
 </head>
 <body>
+  <ascii>
+    <pre>   
+    __  ___      __       _                       _
+   /  |/  /___ _/ /______(_)___ ___  ____  ____  (_)_  _______
+  / /|_/ / __ `/ __/ ___/ / __ `__ \/ __ \/ __ \/ / / / / ___/
+ / /  / / /_/ / /_/ /  / / / / / / / /_/ / / / / / /_/ (__  )
+/_/  /_/\__,_/\__/_/  /_/_/ /_/ /_/\____/_/ /_/_/\__,_/____/
+    </pre>
+  </ascii>
   <nav>
     <a href="{{ "/" | relative_url }}">Home</a>
     <a href="{{ "/music" | relative_url }}">Music</a>

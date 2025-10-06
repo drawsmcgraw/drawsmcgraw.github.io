@@ -6,8 +6,8 @@ permalink: /projects/
 
 # Projects
 
-### Active
-- **Smart Synthesizer** – a generative music tool using AI
+### 2025
+- [**ARCH 150 at University of Maryland**](arch150) - sample
 - **Jekyll Portfolio** – this site!
 
 ### Past
